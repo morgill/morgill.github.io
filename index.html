@@ -1,32 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Module #2 Assignment</title>
-	<link rel="stylesheet" href="css/stylesheet.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 3 Assignment</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h1>Our Menu</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <div class="navbar-brand">
+	            <a href="index.html"><h1>Food, LLC</h1></a>
+	          </div>
+
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        </div>
+	        
+	        <div id="collapsable-nav" class="collapse navbar-collapse">
+	           <ul id="nav-list" class="nav navbar-nav navbar-right">
+	            <li class="visible-xs active">
+	              <a href="index.html">
+	                <br class="hidden-xs">Chicken</a>
+	            </li>
+	            <li class="visible-xs active">
+	              <a href="index.html">
+	                <br class="hidden-xs">Beef</a>
+	            </li>
+	            <li class="visible-xs active">
+	              <a href="Sushi">
+	                <br class="hidden-xs">Sushi</a>
+	            </li>
+	          </ul><!-- #nav-list -->
+	        </div><!-- .collapse .navbar-collapse -->
+	      </div><!-- .container -->
+	    </nav><!-- #header-nav -->
+	</header>
 
 	<div>
-		<div class="block col-lg-4 col-md-6 col-sm-12">
-			<div class="inner-block">
-				<p id="title-1">Chicken</p>
-				<p class = "body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
-			</div>
-		</div>
-		<div class="block col-lg-4 col-md-6 col-sm-12">
-			<div class="inner-block">
-				<p id="title-2">Beef</p>
-				<p class = "body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
-			</div>
-		</div>
-		<div class="block col-lg-4 col-md-6 col-sm-12">
-			<div class="inner-block">
-				<p id="title-3">Sushi</p>
-				<p class = "body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
-			</div>
+		<h2>Our Menu</h2>
+	</div>
+
+	<div id="main-tiles">
+		<div id="main-content" class="col-md-12">
+			<h3>Chicken</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nulla, iaculis sed molestie sit amet, egestas in libero. Nulla ultrices turpis eu lectus ornare, ac dictum ante ultrices. In sagittis libero diam, vitae efficitur massa euismod ut. Mauris facilisis elementum felis, ut egestas est volutpat pellentesque. Cras sodales vulputate tortor, eget varius nisi vehicula ut. Vivamus diam erat, imperdiet et molestie et, semper at justo. Quisque fermentum faucibus nunc, eu vestibulum nisi accumsan in. Suspendisse bibendum sagittis tellus et aliquet. Duis porttitor orci ut eros maximus tempor. Maecenas imperdiet id nisl eu ornare. Vestibulum et eros nec turpis congue.
+			</p>
 		</div>
 	</div>
+
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
